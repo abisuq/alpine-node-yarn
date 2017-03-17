@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:edge
 MAINTAINER crs <runshan.chen@implustech.com>
 RUN apk update && apk upgrade && \
     apk add --no-cache bash git nodejs && \
